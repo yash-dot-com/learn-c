@@ -1,0 +1,1 @@
+- because knowing how memory works is important.
