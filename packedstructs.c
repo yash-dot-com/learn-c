@@ -1,6 +1,8 @@
 // packed structs to stop memory alignment to stop extra padding bytes to be added to the total size of struct
 // efficient while transferring struct over network
 
+// general rule of thumb to reduce padding - order of the datatypes in struct should be from largest to smallest.
+
 #include <stdio.h>
 #include <stdbool.h>
 
